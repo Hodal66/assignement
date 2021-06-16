@@ -1,0 +1,105 @@
+*{
+	box-sizing:border-box;
+	padding: 0px;
+	margin:0px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+
+}
+body{
+	background-color: hsl(185, 75%, 39%);
+	background-image:url("../images/image2.svg");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main{
+	width: 36%;
+	height: 400px;
+	background-color:#fff;
+	border-radius: 15px;
+	position: relative;
+}
+.main > .top{
+	width: 100%;
+	height: 152px;
+	background-image: url("");
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+}
+.image1{
+	border-radius: 15px 15px 0px 0px;
+	width: 100%;
+}
+.image2{
+	border-radius: 50px;
+}
+p{
+text-align: center;
+font-size: 18px;
+font-family:sans serif;
+}
+.p2{
+	font-size: 12px;
+}
+.main > .top >.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 100px;
+	position: absolute;
+}
+.main > .bottom{
+	width: 100%;
+	height: 248px;
+
+}
+.main > .bottom >.first{
+	width: 100%;
+	height: 60%;
+	padding-top:50px;
+	border-bottom: 2px solid #ddd;
+}
+.main > .bottom >.second{
+	width: 100%;
+	height: 40%;
+	padding: 0px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.main > .bottom >.second > .boxes{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+
+
+}
+.main > .bottom >.second > .boxes > div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+.main > .bottom >.second > .boxes > div >div{
+	width: 100%;
+	text-align: center;
+	
+
+}
+.main > .bottom >.second > .boxes > div >div:last-child{
+	font-size: 15px;
+}
+@media screen and (max-width: 375px){
+	.main{
+		width: 90%;
+	}
+
+}
